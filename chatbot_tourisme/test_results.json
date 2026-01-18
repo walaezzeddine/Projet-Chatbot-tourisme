@@ -1,0 +1,263 @@
+{
+  "passed_tests": 15,
+  "failed_tests": 0,
+  "total_tests": 15,
+  "success_rate": 100.0,
+  "test_results": [
+    {
+      "description": "Salutation basique",
+      "question": "Bonjour",
+      "response": "Bienvenue en Tunisie! Je suis votre assistant touristique. 🇹🇳\nComment puis-je vous aider? Vous pouvez me poser des questions sur:\n- Les destinations touristiques\n- Les activités à faire\n- Les hôtels et hébergements\n- Les informations pratiques",
+      "expected_keywords": [
+        "bienvenue",
+        "tunisie",
+        "assistant"
+      ],
+      "found_keywords": [
+        "bienvenue",
+        "tunisie",
+        "assistant"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Information sur destination - Djerba",
+      "question": "Parle-moi de Djerba",
+      "response": "\n============================================================\n🇹🇳 DJERBA\n============================================================\n\n📍 Gouvernorat: Médenine\n🗺️  Région: Sud-Est\n\n📝 DESCRIPTION:\nÎle méditerranéenne célèbre pour ses plages de sable blanc et son patrimoine culturel\n\n🎯 ATTRACTIONS PRINCIPALES:\n   1. Musée du Linge Traditionnel\n   2. Île de Flamingo\n   3. Synagogue de la Ghriba\n   4. Plages paradisiaques\n   5. Phare de Djerba\n   6. Marché de Midoun\n\n🎪 ACTIVITÉS DISPONIBLES:\n   • Plages\n   • Culture\n   • Détente\n\n🌤️  MEILLEURE PÉRIODE: Avril à Octobre\n🏨 HÉBERGEMENT: Hôtels 3-5 étoiles, Resorts\n============================================================\n",
+      "expected_keywords": [
+        "djerba",
+        "île",
+        "plage"
+      ],
+      "found_keywords": [
+        "djerba",
+        "île",
+        "plage"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Attractions à Tunis",
+      "question": "Qu'est-ce que je peux visiter à Tunis?",
+      "response": "\n============================================================\n🇹🇳 TUNIS\n============================================================\n\n📍 Gouvernorat: Tunis\n🗺️  Région: Nord - Capitale\n👥 Population: 2.7M\n\n📝 DESCRIPTION:\nCapitale historique avec architecture ottomane et médina authentique\n\n🎯 ATTRACTIONS PRINCIPALES:\n   1. Médina de Tunis\n   2. Musée du Bardo\n   3. Parc du Belvédère\n   4. Cathédrale de Tunis\n   5. Souks traditionnels\n   6. Mosquée de la Zitouna\n\n🎪 ACTIVITÉS DISPONIBLES:\n   • Culture\n   • Histoire\n   • Shopping\n\n🌤️  MEILLEURE PÉRIODE: Octobre à Avril\n🏨 HÉBERGEMENT: Hôtels 2-5 étoiles, Auberges, Riads\n============================================================\n",
+      "expected_keywords": [
+        "tunis",
+        "médina",
+        "bardo"
+      ],
+      "found_keywords": [
+        "tunis",
+        "médina",
+        "bardo"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Recommandations de plages",
+      "question": "Où trouver les meilleures plages?",
+      "response": "Plages méditerranéennes avec eaux turquoise\nLieux recommandés: Djerba, Hammamet, Sousse, Mahdia, Monastir, Îles Kerkennah",
+      "expected_keywords": [
+        "plage",
+        "djerba",
+        "hammamet"
+      ],
+      "found_keywords": [
+        "plage",
+        "djerba",
+        "hammamet"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Recommandations d'hôtels à Hammamet",
+      "question": "Quels sont les hôtels recommandés à Hammamet?",
+      "response": "Hôtels recommandés à Hammamet:\n\n- Sheraton Tunisie (5 étoiles ⭐)\n  Luxury resort avec plage privée, restaurants gastronomiques\n  Gamme de prix: Élevée\n",
+      "expected_keywords": [
+        "hammamet",
+        "hôtel",
+        "étoile"
+      ],
+      "found_keywords": [
+        "hammamet",
+        "hôtel",
+        "étoile"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Activités désert",
+      "question": "Je veux visiter le désert du Sahara",
+      "response": "Exploration du désert du Sahara avec chameaux ou 4x4\nLieux recommandés: Tataouine, Tozeur, Nefta, Kébili, Douz",
+      "expected_keywords": [
+        "sahara",
+        "désert",
+        "douz"
+      ],
+      "found_keywords": [
+        "sahara",
+        "désert",
+        "douz"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Information visa",
+      "question": "Ai-je besoin d'un visa pour la Tunisie?",
+      "response": "Pas besoin de visa pour les ressortissants de l'UE, Suisse, Norvège pour un séjour de 90 jours maximum. Les autres nationalités doivent vérifier les conditions auprès de leur consulat tunisien. Passeport valide 6 mois minimum recommandé.",
+      "expected_keywords": [
+        "visa",
+        "pas besoin",
+        "90 jours"
+      ],
+      "found_keywords": [
+        "visa",
+        "pas besoin",
+        "90 jours"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Information monnaie",
+      "question": "Quelle est la monnaie en Tunisie?",
+      "response": "La monnaie est le Dinar Tunisien (TND). Le taux de change est approximativement 1 EUR = 3.3 TND. Les cartes de crédit sont acceptées dans la plupart des hôtels et commerces modernes. Les distributeurs ATM sont disponibles dans les villes principales.",
+      "expected_keywords": [
+        "dinar",
+        "tnd",
+        "monnaie"
+      ],
+      "found_keywords": [
+        "dinar",
+        "tnd",
+        "monnaie"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Meilleure période de visite",
+      "question": "Quel est le meilleur moment pour visiter la Tunisie?",
+      "response": "D'avril à mai et de septembre à octobre-novembre offrent un climat idéal (20-25°C). L'été (juin-août) est très chaud (35-40°C) mais idéal pour la baignade. L'hiver (décembre-février) est doux (15-20°C). Éviter juillet-août si vous craignez la chaleur.",
+      "expected_keywords": [
+        "avril",
+        "mai",
+        "octobre"
+      ],
+      "found_keywords": [
+        "avril",
+        "mai",
+        "octobre"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Moyens de transport",
+      "question": "Comment se déplacer en Tunisie?",
+      "response": "Options: vols intérieurs, louage (taxi partagé), trains, bus. La location de voiture est recommandée pour explorer le sud. Les taxis sont disponibles dans toutes les villes. Les louages sont le transport local principal et très abordable.",
+      "expected_keywords": [
+        "taxi",
+        "louage",
+        "bus"
+      ],
+      "found_keywords": [
+        "taxi",
+        "louage",
+        "bus"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Question sécurité",
+      "question": "La Tunisie est-elle sûre pour les touristes?",
+      "response": "Oui, la Tunisie est généralement sûre pour les touristes. Évitez les zones frontalières sud. Prenez les précautions habituelles (pickpockets dans les villes). Les zones touristiques sont bien sécurisées. Consulter votre ministère des affaires étrangères pour les mises à jour de sécurité.",
+      "expected_keywords": [
+        "sûr",
+        "sécurit",
+        "touriste"
+      ],
+      "found_keywords": [
+        "sûr",
+        "sécurit",
+        "touriste"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Langues parlées",
+      "question": "Quelle langue parle-t-on en Tunisie?",
+      "response": "La langue officielle est l'arabe. Le français est largement parlé, notamment dans le tourisme et les zones urbaines. L'anglais est compris dans les hôtels touristiques et les attractions principales.",
+      "expected_keywords": [
+        "arabe",
+        "français",
+        "langue"
+      ],
+      "found_keywords": [
+        "arabe",
+        "français",
+        "langue"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Sites à Carthage",
+      "question": "Que visiter à Carthage?",
+      "response": "\n============================================================\n🇹🇳 CARTHAGE\n============================================================\n\n📍 Gouvernorat: Ben Arous\n🗺️  Région: Banlieue Nord\n\n📝 DESCRIPTION:\nSite historique de l'ancienne civilisation romaine et carthaginoise\n\n🎯 ATTRACTIONS PRINCIPALES:\n   1. Ruines de Carthage\n   2. Musée de Carthage\n   3. Thermes d'Antonin\n   4. Plages historiques\n   5. Amphithéâtre romain\n\n🎪 ACTIVITÉS DISPONIBLES:\n   • Archéologie\n   • Histoire\n   • Plages\n\n🌤️  MEILLEURE PÉRIODE: Octobre à Avril\n🏨 HÉBERGEMENT: Hôtels 3-4 étoiles\n============================================================\n",
+      "expected_keywords": [
+        "carthage",
+        "ruine",
+        "romain"
+      ],
+      "found_keywords": [
+        "carthage",
+        "ruine",
+        "romain"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Information sur Kairouan",
+      "question": "Raconte-moi sur Kairouan",
+      "response": "\n============================================================\n🇹🇳 KAIROUAN\n============================================================\n\n📍 Gouvernorat: Kairouan\n🗺️  Région: Centre\n\n📝 DESCRIPTION:\nCité sacrée du Maghreb avec la Grande Mosquée et patrimoine islamique\n\n🎯 ATTRACTIONS PRINCIPALES:\n   1. Grande Mosquée\n   2. Médina historique\n   3. Mausolées saints\n   4. Musée d'art islamique\n   5. Musée de la céramique\n\n🎪 ACTIVITÉS DISPONIBLES:\n   • Spiritualité\n   • Culture islamique\n   • Artisanat\n\n🌤️  MEILLEURE PÉRIODE: Octobre à Avril\n🏨 HÉBERGEMENT: Hôtels 2-4 étoiles, Riads\n============================================================\n",
+      "expected_keywords": [
+        "kairouan",
+        "mosquée",
+        "islam"
+      ],
+      "found_keywords": [
+        "kairouan",
+        "mosquée",
+        "islam"
+      ],
+      "missing_keywords": [],
+      "success": true
+    },
+    {
+      "description": "Spots de plongée",
+      "question": "Où puis-je faire de la plongée sous-marine?",
+      "response": "Plongée, snorkeling, jet ski, windsurf\nLieux recommandés: Djerba, Hammamet, Sousse, Tabarka",
+      "expected_keywords": [
+        "plongée",
+        "tabarka",
+        "djerba"
+      ],
+      "found_keywords": [
+        "plongée",
+        "tabarka",
+        "djerba"
+      ],
+      "missing_keywords": [],
+      "success": true
+    }
+  ]
+}

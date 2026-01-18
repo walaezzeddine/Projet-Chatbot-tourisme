@@ -1,0 +1,481 @@
+{
+  "destinations": [
+    {
+      "name": "Tunis",
+      "governorate": "Tunis",
+      "region": "Nord - Capitale",
+      "description": "Capitale historique avec architecture ottomane et médina authentique",
+      "attractions": ["Médina de Tunis", "Musée du Bardo", "Parc du Belvédère", "Cathédrale de Tunis", "Souks traditionnels", "Mosquée de la Zitouna"],
+      "best_season": "Octobre à Avril",
+      "accommodation": "Hôtels 2-5 étoiles, Auberges, Riads",
+      "population": "2.7M",
+      "activities": ["Culture", "Histoire", "Shopping"]
+    },
+    {
+      "name": "Carthage",
+      "governorate": "Ben Arous",
+      "region": "Banlieue Nord",
+      "description": "Site historique de l'ancienne civilisation romaine et carthaginoise",
+      "attractions": ["Ruines de Carthage", "Musée de Carthage", "Thermes d'Antonin", "Plages historiques", "Amphithéâtre romain"],
+      "best_season": "Octobre à Avril",
+      "accommodation": "Hôtels 3-4 étoiles",
+      "activities": ["Archéologie", "Histoire", "Plages"]
+    },
+    {
+      "name": "Hammamet",
+      "governorate": "Nabeul",
+      "region": "Côte Nord-Est",
+      "description": "Station balnéaire moderne avec plages magnifiques et vie nocturne animée",
+      "attractions": ["Plages de sable fin", "Kasbah de Hammamet", "Médina ancienne", "Port touristique", "Jardin exotique", "Musée des civilisations"],
+      "best_season": "Mai à Septembre",
+      "accommodation": "Resorts 4-5 étoiles, Hôtels touristiques",
+      "activities": ["Plages", "Vie nocturne", "Sports nautiques"]
+    },
+    {
+      "name": "Nabeul",
+      "governorate": "Nabeul",
+      "region": "Côte Nord-Est",
+      "description": "Cité côtière réputée pour sa céramique et ses marchés",
+      "attractions": ["Marché de céramique", "Plages", "Poteries traditionnelles", "Marché du vendredi"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Hôtels 2-4 étoiles",
+      "activities": ["Artisanat", "Shopping", "Plages"]
+    },
+    {
+      "name": "Sousse",
+      "governorate": "Sousse",
+      "region": "Côte Est",
+      "description": "Port historique et station balnéaire populaire, centre du tourisme tunisien",
+      "attractions": ["Ribat de Sousse", "Musée Archéologique", "Médina de Sousse", "Plages urbaines", "Port de plaisance"],
+      "best_season": "Mai à Octobre",
+      "accommodation": "Hôtels 3-5 étoiles, Resorts",
+      "activities": ["Plages", "Histoire", "Gastronomie"]
+    },
+    {
+      "name": "Monastir",
+      "governorate": "Monastir",
+      "region": "Côte Est",
+      "description": "Station balnéaire avec ribat historique et musée prestigieux",
+      "attractions": ["Ribat de Monastir", "Musée d'art islamique", "Plages tranquilles", "Port de yachts", "Mausolée du Bourguiba"],
+      "best_season": "Mai à Octobre",
+      "accommodation": "Hôtels 3-4 étoiles",
+      "activities": ["Plages", "Culture", "Détente"]
+    },
+    {
+      "name": "Sfax",
+      "governorate": "Sfax",
+      "region": "Est - Côte méditerranéenne",
+      "description": "Deuxième ville la plus importante avec un important port commercial et une riche histoire",
+      "attractions": ["Médina de Sfax", "Musée archéologique", "Port de pêche", "Marché traditionnel", "Mosquée de Sidi Younes"],
+      "best_season": "Octobre à Avril",
+      "accommodation": "Hôtels 2-3 étoiles",
+      "activities": ["Culture", "Commerce", "Gastronomie"]
+    },
+    {
+      "name": "Djerba",
+      "governorate": "Médenine",
+      "region": "Sud-Est",
+      "description": "Île méditerranéenne célèbre pour ses plages de sable blanc et son patrimoine culturel",
+      "attractions": ["Musée du Linge Traditionnel", "Île de Flamingo", "Synagogue de la Ghriba", "Plages paradisiaques", "Phare de Djerba", "Marché de Midoun"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Hôtels 3-5 étoiles, Resorts",
+      "activities": ["Plages", "Culture", "Détente"]
+    },
+    {
+      "name": "Médenine",
+      "governorate": "Médenine",
+      "region": "Sud",
+      "description": "Porte d'entrée du Sahara avec ksours traditionnels et paysages désertiques",
+      "attractions": ["Ksours de Médenine", "Marché hebdomadaire", "Paysages désertiques", "Villages de montagne"],
+      "best_season": "Octobre à Mars",
+      "accommodation": "Guesthouses, Petits hôtels",
+      "activities": ["Désert", "Culture berbère", "Trekking"]
+    },
+    {
+      "name": "Tataouine",
+      "governorate": "Tataouine",
+      "region": "Sud",
+      "description": "Région désertique authentique, site de tournage de Star Wars",
+      "attractions": ["Ksours de Tataouine", "Paysages lunaires", "Villages berbères", "Désert du Sahara", "Musée du ksour", "Canyon de Chebika"],
+      "best_season": "Octobre à Mars",
+      "accommodation": "Guesthouses, Petits hôtels, Maisons d'hôtes",
+      "activities": ["Désert", "Cinéma", "Aventure"]
+    },
+    {
+      "name": "Tozeur",
+      "governorate": "Tozeur",
+      "region": "Sud-Ouest",
+      "description": "Oasis berbère au cœur du Sahara avec architecture traditionnelle unique",
+      "attractions": ["Oasis de Tozeur", "Montagne de Chebika", "Canyon de Tamerza", "Lac salé de Chott El Djerid", "Musée des arts", "Médina historique"],
+      "best_season": "Octobre à Mars",
+      "accommodation": "Petits hôtels, Guesthouses de charme, Ecolodges",
+      "activities": ["Oasis", "Sahara", "Trekking"]
+    },
+    {
+      "name": "Nefta",
+      "governorate": "Tozeur",
+      "region": "Sud-Ouest",
+      "description": "Oasis sacrée réputée pour sa spiritualité et sa beauté naturelle",
+      "attractions": ["Oasis de Nefta", "Corbeille de Nefta", "Sources thermales", "Mosquée historique", "Musée du textile"],
+      "best_season": "Octobre à Mars",
+      "accommodation": "Hôtels 2-3 étoiles, Guesthouses",
+      "activities": ["Spiritualité", "Nature", "Détente"]
+    },
+    {
+      "name": "Gafsa",
+      "governorate": "Gafsa",
+      "region": "Centre-Sud",
+      "description": "Région minière avec patrimoine historique et musée du phosphate",
+      "attractions": ["Kasbah de Gafsa", "Musée archéologique", "Sources thermales", "Bassin minier", "Fort historique"],
+      "best_season": "Octobre à Avril",
+      "accommodation": "Hôtels 2-3 étoiles",
+      "activities": ["Industrie", "Géologie", "Thermalisme"]
+    },
+    {
+      "name": "Sidi Bouzid",
+      "governorate": "Sidi Bouzid",
+      "region": "Centre",
+      "description": "Région agricole avec patrimoine archéologique et tradition rurale",
+      "attractions": ["Musée du Sahel", "Villages traditionnels", "Champs d'oliviers", "Ruines romaines", "Marché traditionnel"],
+      "best_season": "Octobre à Avril",
+      "accommodation": "Auberges, Maisons d'hôtes",
+      "activities": ["Culture rurale", "Archéologie", "Gastronomie"]
+    },
+    {
+      "name": "Kairouan",
+      "governorate": "Kairouan",
+      "region": "Centre",
+      "description": "Cité sacrée du Maghreb avec la Grande Mosquée et patrimoine islamique",
+      "attractions": ["Grande Mosquée", "Médina historique", "Mausolées saints", "Musée d'art islamique", "Musée de la céramique"],
+      "best_season": "Octobre à Avril",
+      "accommodation": "Hôtels 2-4 étoiles, Riads",
+      "activities": ["Spiritualité", "Culture islamique", "Artisanat"]
+    },
+    {
+      "name": "Mahdia",
+      "governorate": "Mahdia",
+      "region": "Est - Côte sud",
+      "description": "Ancienne capitale avec médina sur péninsule et plages tranquilles",
+      "attractions": ["Médina de Mahdia", "Borj el Kébir", "Plages tranquilles", "Musée archéologique", "Musée du corail"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Hôtels 3-4 étoiles",
+      "activities": ["Plages", "Histoire", "Pêche"]
+    },
+    {
+      "name": "Sfax (Îles Kerkennah)",
+      "governorate": "Sfax",
+      "region": "Est - Îles",
+      "description": "Archipel de trois îles avec plages vierges et villages de pêcheurs",
+      "attractions": ["Plages isolées", "Villages de pêcheurs", "Forêt d'eucalyptus", "Merguellil", "Activités nautiques"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Petits hôtels, Guesthouses",
+      "activities": ["Plages", "Pêche", "Nature"]
+    },
+    {
+      "name": "Kébili",
+      "governorate": "Kébili",
+      "region": "Sud - Sahara",
+      "description": "Oasis du Sahara avec sources d'eau chaude et paysages désertiques",
+      "attractions": ["Oasis de Kébili", "Sources thermales", "Dunes de sable", "Marché traditionnel", "Paysages sahariens"],
+      "best_season": "Octobre à Mars",
+      "accommodation": "Petits hôtels, Guesthouses",
+      "activities": ["Sahara", "Thermalisme", "Trekking"]
+    },
+    {
+      "name": "Kasserine",
+      "governorate": "Kasserine",
+      "region": "Ouest",
+      "description": "Région montagneuse riche en histoire romaine et patrimoine naturel",
+      "attractions": ["Sbeitla (ruines romaines)", "Musée archéologique", "Mont Chaâmbi", "Sources naturelles", "Paysages montagneux"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Hôtels 2-3 étoiles",
+      "activities": ["Randonnée", "Archéologie", "Nature"]
+    },
+    {
+      "name": "Le Kef",
+      "governorate": "Le Kef",
+      "region": "Nord-Ouest",
+      "description": "Ville historique perchée avec casbah et vues panoramiques",
+      "attractions": ["Casbah de Le Kef", "Médina historique", "Musée archéologique", "Panorama ville", "Basilique chrétienne"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Hôtels 2-3 étoiles",
+      "activities": ["Histoire", "Vues panoramiques", "Randonnée"]
+    },
+    {
+      "name": "Béja",
+      "governorate": "Béja",
+      "region": "Nord",
+      "description": "Ville fertile avec patrimoine ottoman et paysages agricoles",
+      "attractions": ["Casbah de Béja", "Mosquée Sidi Bouderbala", "Musée archéologique", "Paysages ruraux", "Marché traditionnel"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Auberges, Maisons d'hôtes",
+      "activities": ["Culture", "Ruralité", "Gastronomie"]
+    },
+    {
+      "name": "Jendouba",
+      "governorate": "Jendouba",
+      "region": "Nord-Ouest",
+      "description": "Région viticole avec patrimoine romain et paysages vallonnés",
+      "attractions": ["Ruines de Bulla Regia", "Vignobles", "Musée archéologique", "Paysages naturels", "Forêt de liège"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Hôtels 2-3 étoiles, Auberges",
+      "activities": ["Vin", "Archéologie", "Randonnée"]
+    },
+    {
+      "name": "Siliana",
+      "governorate": "Siliana",
+      "region": "Centre-Nord",
+      "description": "Région céréalière avec patrimoine agricole et paysages agricoles",
+      "attractions": ["Musée de Maktar", "Ruines antiques", "Paysages ruraux", "Marché agricole", "Villages traditionnels"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Auberges, Maisons d'hôtes",
+      "activities": ["Culture rurale", "Archéologie", "Randonnée"]
+    },
+    {
+      "name": "Manouba",
+      "governorate": "Manouba",
+      "region": "Nord - Banlieue",
+      "description": "Région agricole de la banlieue nord avec patrimoine historique",
+      "attractions": ["Médinas anciennes", "Vergers d'agrumes", "Mosquées historiques", "Marché traditionnel"],
+      "best_season": "Octobre à Avril",
+      "accommodation": "Hôtels 2-3 étoiles",
+      "activities": ["Ruralité", "Culture", "Gastronomie"]
+    },
+    {
+      "name": "Ariana",
+      "governorate": "Ariana",
+      "region": "Nord - Banlieue",
+      "description": "Région résidentielle avec patrimoine culturel et espaces verts",
+      "attractions": ["Musées", "Parcs", "Espaces verts", "Architectures modernes"],
+      "best_season": "Toute l'année",
+      "accommodation": "Hôtels 3-4 étoiles",
+      "activities": ["Détente", "Culture", "Shopping"]
+    },
+    {
+      "name": "Ben Arous",
+      "governorate": "Ben Arous",
+      "region": "Banlieue Sud",
+      "description": "Région côtière avec plages et patrimoine historique",
+      "attractions": ["Plages", "Musées", "Parcs", "Zones résidentielles"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Hôtels 2-4 étoiles",
+      "activities": ["Plages", "Détente", "Shopping"]
+    },
+    {
+      "name": "Zaghouan",
+      "governorate": "Zaghouan",
+      "region": "Nord-Est",
+      "description": "Ville de montagne réputée pour ses sources d'eau et paysages pittoresques",
+      "attractions": ["Sanctuaire des eaux", "Mont Zaghouan", "Sources naturelles", "Musée archéologique", "Paysages montagneux"],
+      "best_season": "Avril à Octobre",
+      "accommodation": "Hôtels 2-3 étoiles, Guesthouses",
+      "activities": ["Randonnée", "Nature", "Spiritualité"]
+    }
+  ],
+  "faq": {
+    "visa": {
+      "question": "Ai-je besoin d'un visa pour la Tunisie?",
+      "answer": "Pas besoin de visa pour les ressortissants de l'UE, Suisse, Norvège pour un séjour de 90 jours maximum. Les autres nationalités doivent vérifier les conditions auprès de leur consulat tunisien. Passeport valide 6 mois minimum recommandé."
+    },
+    "currency": {
+      "question": "Quelle est la monnaie en Tunisie?",
+      "answer": "La monnaie est le Dinar Tunisien (TND). Le taux de change est approximativement 1 EUR = 3.3 TND. Les cartes de crédit sont acceptées dans la plupart des hôtels et commerces modernes. Les distributeurs ATM sont disponibles dans les villes principales."
+    },
+    "language": {
+      "question": "Quelle langue parle-t-on?",
+      "answer": "La langue officielle est l'arabe. Le français est largement parlé, notamment dans le tourisme et les zones urbaines. L'anglais est compris dans les hôtels touristiques et les attractions principales."
+    },
+    "transport": {
+      "question": "Comment se déplacer en Tunisie?",
+      "answer": "Options: vols intérieurs, louage (taxi partagé), trains, bus. La location de voiture est recommandée pour explorer le sud. Les taxis sont disponibles dans toutes les villes. Les louages sont le transport local principal et très abordable."
+    },
+    "best_time": {
+      "question": "Quel est le meilleur moment pour visiter?",
+      "answer": "D'avril à mai et de septembre à octobre-novembre offrent un climat idéal (20-25°C). L'été (juin-août) est très chaud (35-40°C) mais idéal pour la baignade. L'hiver (décembre-février) est doux (15-20°C). Éviter juillet-août si vous craignez la chaleur."
+    },
+    "safety": {
+      "question": "Est-ce sûr de visiter la Tunisie?",
+      "answer": "Oui, la Tunisie est généralement sûre pour les touristes. Évitez les zones frontalières sud. Prenez les précautions habituelles (pickpockets dans les villes). Les zones touristiques sont bien sécurisées. Consulter votre ministère des affaires étrangères pour les mises à jour de sécurité."
+    },
+    "beaches": {
+      "question": "Quelles sont les plus belles plages?",
+      "answer": "Djerba, Hammamet et Sousse offrent les plages les plus populaires. Pour des plages isolées: Îles Kerkennah, Mahdia ou la côte sud. Les plages sont généralement publiques et gratuites."
+    },
+    "food": {
+      "question": "Que manger en Tunisie?",
+      "answer": "Spécialités: couscous, brik (pâtisserie), tajine, pâtes, fruits de mer. Le café tunisien et les pâtisseries (baklava, makroudh) sont délicieux. Les restaurants proposent cuisine locale ou internationale. Eau potable disponible partout."
+    },
+    "hotels": {
+      "question": "Quel type d'hébergement pour touriste?",
+      "answer": "Options variées: hôtels 2-5 étoiles, resorts, riads (maisons d'hôtes traditionnelles), guesthouses, écolodges. Les prix varient de budget à luxe. Réservation en ligne recommandée en haute saison."
+    },
+    "activities": {
+      "question": "Que faire en Tunisie?",
+      "answer": "Plages, safaris désertiques, visites culturelles (Carthage, Kairouan), randonnées, plongée, sports nautiques. Marchés locaux, medinas, musées. Festivals culturels et événements toute l'année."
+    }
+  },
+  "hotels_recommendations": [
+    {
+      "name": "Djerba Plaza Hotel & Spa",
+      "location": "Djerba",
+      "stars": 4,
+      "price_range": "Moyenne",
+      "description": "Resort moderne avec vue mer, spa et piscine",
+      "amenities": ["Plage privée", "Spa", "Restaurant", "Piscine"]
+    },
+    {
+      "name": "Hotel Menzah Tunis",
+      "location": "Tunis",
+      "stars": 4,
+      "price_range": "Moyenne",
+      "description": "Hôtel central proche de la Médina, accès à pied aux attractions",
+      "amenities": ["Restaurant", "Bar", "WiFi", "Parking"]
+    },
+    {
+      "name": "Sheraton Tunisie",
+      "location": "Hammamet",
+      "stars": 5,
+      "price_range": "Élevée",
+      "description": "Luxury resort avec plage privée, restaurants gastronomiques",
+      "amenities": ["Plage privée", "Spa de luxe", "Restaurants multiples", "Piscine chauffée"]
+    },
+    {
+      "name": "Hotel Claridge",
+      "location": "Sousse",
+      "stars": 4,
+      "price_range": "Moyenne",
+      "description": "Hôtel pittoresque au cœur de la médina, cuisine locale",
+      "amenities": ["Restaurant", "Terrasse", "WiFi", "Climatisation"]
+    },
+    {
+      "name": "Dar Essaada Boutique Hotel",
+      "location": "Kairouan",
+      "stars": 4,
+      "price_range": "Moyenne",
+      "description": "Riad traditionnel avec architecture authentique",
+      "amenities": ["Patio traditionnel", "Restaurant local", "WiFi", "Chambres individuelles"]
+    },
+    {
+      "name": "Sahara Palace Tozeur",
+      "location": "Tozeur",
+      "stars": 4,
+      "price_range": "Moyenne",
+      "description": "Hôtel oasis avec design traditionnel",
+      "amenities": ["Piscine", "Restaurant sahrien", "WiFi", "Terrasse"]
+    },
+    {
+      "name": "Mahdia Dolmen",
+      "location": "Mahdia",
+      "stars": 4,
+      "price_range": "Moyenne",
+      "description": "Hôtel méditerranéen avec vue sur la médina",
+      "amenities": ["Restaurant", "Plage", "Piscine", "WiFi"]
+    },
+    {
+      "name": "Monastir Royal Hotel",
+      "location": "Monastir",
+      "stars": 4,
+      "price_range": "Moyenne",
+      "description": "Resort côtier avec plage privée",
+      "amenities": ["Plage privée", "Piscine", "Restaurant", "Spa"]
+    }
+  ],
+  "activities": [
+    {
+      "type": "Beach",
+      "description": "Plages méditerranéennes avec eaux turquoise",
+      "locations": ["Djerba", "Hammamet", "Sousse", "Mahdia", "Monastir", "Îles Kerkennah"],
+      "best_time": "Mai à Septembre",
+      "equipment": "Maillot, crème solaire, serviette"
+    },
+    {
+      "type": "Desert Safari",
+      "description": "Exploration du désert du Sahara avec chameaux ou 4x4",
+      "locations": ["Tataouine", "Tozeur", "Nefta", "Kébili", "Douz"],
+      "best_time": "Octobre à Mars",
+      "equipment": "Vêtements légers, lunettes solaires, appareil photo"
+    },
+    {
+      "type": "History & Culture",
+      "description": "Sites archéologiques romains et médinas anciennes",
+      "locations": ["Carthage", "Tunis", "Sousse", "Kairouan", "Sbeitla"],
+      "best_time": "Octobre à Avril",
+      "equipment": "Chaussures confortables, guide optionnel"
+    },
+    {
+      "type": "Oasis Tour",
+      "description": "Découverte des oasis berbères",
+      "locations": ["Tozeur", "Nefta", "Kébili", "Douz"],
+      "best_time": "Octobre à Mars",
+      "equipment": "Vêtements chauds, appareil photo, chapeau"
+    },
+    {
+      "type": "Water Sports",
+      "description": "Plongée, snorkeling, jet ski, windsurf",
+      "locations": ["Djerba", "Hammamet", "Sousse", "Tabarka"],
+      "best_time": "Avril à Octobre",
+      "equipment": "Combinaison, masque, certificat de plongée"
+    },
+    {
+      "type": "Mountain Trekking",
+      "description": "Randonnées en montagne avec vues panoramiques",
+      "locations": ["Chaâmbi", "Zaghouan", "Le Kef", "Kasserine"],
+      "best_time": "Avril à Octobre",
+      "equipment": "Chaussures de randonnée, sac à dos, eau"
+    },
+    {
+      "type": "Local Markets",
+      "description": "Souks traditionnels et marchés locaux",
+      "locations": ["Tunis", "Sousse", "Kairouan", "Nabeul", "Sfax"],
+      "best_time": "Toute l'année",
+      "equipment": "Argent tunisien, sac pour achats"
+    },
+    {
+      "type": "Religious Sites",
+      "description": "Visites de mosquées historiques et lieux saints",
+      "locations": ["Kairouan", "Nefta", "Tunis", "Sousse"],
+      "best_time": "Octobre à Avril",
+      "equipment": "Vêtements respectueux, foulard optionnel"
+    },
+    {
+      "type": "Thermal Springs",
+      "description": "Sources d'eau chaude et spas thermaux",
+      "locations": ["Gafsa", "Kébili", "Zaghouan"],
+      "best_time": "Toute l'année",
+      "equipment": "Maillot, serviette, produits toilette"
+    },
+    {
+      "type": "Winery Tours",
+      "description": "Vignobles et dégustations de vin",
+      "locations": ["Jendouba", "Tesselado", "Kelaat", "Raf Raf"],
+      "best_time": "Avril à Octobre",
+      "equipment": "Vêtements élégants, appareil photo"
+    }
+  ],
+  "practical_info": {
+    "electricity": "220V, prise européenne standard",
+    "emergency": "Police: 197, Ambulance: 190, Pompiers: 198, Tourisme: 71-341-077",
+    "health": "Vaccins hépatite A, typhoïde recommandés. Assurance voyage obligatoire. Pharmacies disponibles partout",
+    "customs": "Import alcool max 1L, tabac limité. Devises illimitées en déclarant",
+    "communication": "Préfixe international: +216. Opérateurs: Orange, Tunisie Telecom, Ooredoo. SIM cards bon marché",
+    "postal": "Service postale disponible. Délai international: 1-2 semaines",
+    "banks": "Horaires: 8h-16h lundi-vendredi, fermé samedi-dimanche. DAB disponibles 24h/24",
+    "shopping": "Horaires: 9h-13h, 15h-18h30. Marchés: 6h-18h. Carrefour et hypermarché en villes",
+    "restaurants": "Petit déjeuner: 7h-10h, Déjeuner: 12h-15h, Dîner: 19h-23h",
+    "transport": {
+      "taxi": "Compteur: 0.6 TND/km. Taxis blancs reconnaissables. Marchander possible longue distance",
+      "louage": "Taxi collectif 5-6 personnes. Départ quand plein. Très économique",
+      "bus": "Réseau SNTRI. Confortable et bon marché. Cartes de transport disponibles",
+      "train": "Réseau limité côte est. Confortable pour longues distances",
+      "avion": "Vols intérieurs: Tunis-Djerba, Tunis-Tozeur via Tunisair express"
+    },
+    "tipping": "Service inclus généralement. 1-2 TND pour petits services. 5-10% pour restaurants chic",
+    "climate": {
+      "summer": "Juin-Août: 35-40°C. Sec, très chaud. Attention déshydratation",
+      "winter": "Décembre-Février: 15-20°C. Doux. Quelques pluies côte nord",
+      "spring_fall": "Mars-Mai, Septembre-Novembre: 20-25°C. Idéal. Peu de pluie"
+    },
+    "cultural_notes": "Respecter ramadan (horaires changent). Enlever chaussures mosquées. Photo: demander permission",
+    "documents_needed": "Passeport 6 mois validité. Assurance voyage. Billet retour optionnel"
+  }
+}
